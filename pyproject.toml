@@ -1,0 +1,6 @@
+[tool.isort]
+profile = "black"
+known_first_party = ["recipes", "users", "core", "foodgram"]
+src_paths = ["backend"]
+line_length = 79
+skip = [".venv", "migrations", "__pycache__"]
